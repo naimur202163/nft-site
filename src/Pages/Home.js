@@ -4,9 +4,9 @@ import Navigation from "../Shared/Navigation/Navigation";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Navigation />
       <Footer />
-    </>
+    </div>
   );
 }
