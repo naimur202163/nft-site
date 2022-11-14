@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import logo from "../../images/logo.svg";
+// import logo from "../../images/logo.svg";
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   return (
     <>
       <div className="text-gray-700">
@@ -15,7 +14,7 @@ export default function Navigation() {
                 title="Company"
                 className="inline-flex items-center mr-8"
               >
-                <img src={logo} alt="" />
+                {/* <img src={logo} alt="" /> */}
               </a>
               <ul className="flex items-center hidden space-x-8 lg:flex">
                 <li>

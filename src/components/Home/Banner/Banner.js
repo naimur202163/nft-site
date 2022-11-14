@@ -1,15 +1,16 @@
 import React from "react";
 
 export default function Banner() {
+  console.log("Naimur Rahman D");
   return (
     <div>
-      <div className="grid grid-cols-3 gap-4">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
+      <div class="grid grid-cols-4 gap-4">
+        <div className="col-span-2">01</div>
+        <div>02</div>
+        <div>03</div>
+        <div>02</div>
+        <div>03</div>
+        <div className="col-span-2">01</div>
       </div>
     </div>
   );
