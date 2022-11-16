@@ -51,11 +51,17 @@ const data = [
   },
 ];
 export default function FeaturedProducts() {
-  return <div>
+  return (
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl my-14">
+      <h2 className="font-opens font-bold text-3xl">Featured Products</h2>
 
-
-        {
-            
-        }
-  </div>;
+      <div className="grid grid-cols-2 gap-4">
+        <div className="bg-light-gray ">ssss</div>
+        <div className="grid grid-cols-2 gap-4">
+          <div className=" bg-light-gray">1s</div>
+          <div className=" bg-light-gray">2s</div>
+        </div>
+      </div>
+    </div>
+  );
 }
