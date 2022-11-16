@@ -9,7 +9,7 @@ export default function Banner() {
   console.log("Naimur Rahman D");
   return (
     <div>
-      <div class="grid grid-cols-4 gap-4">
+      <div class="grid grid-cols-4 gap-1 lg:gap-4">
         <div className="col-span-2">
           {" "}
           <img className="max-w-full h-auto lg:h-[370px]" src={img1} alt="" />
