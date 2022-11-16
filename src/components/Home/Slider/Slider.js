@@ -15,7 +15,6 @@ export default function Slider() {
       <Swiper
         slidesPerView={"auto"}
         spaceBetween={0}
-        loop={"true"}
         pagination={{
           clickable: true,
         }}
