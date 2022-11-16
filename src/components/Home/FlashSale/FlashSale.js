@@ -96,7 +96,6 @@ const saleProduct = [
 ];
 
 export default function FlashSale() {
-  console.log(saleProduct);
   return (
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl my-10">
       <div className="border-gray-200 rounded border-2 border-r-2">
@@ -106,23 +105,25 @@ export default function FlashSale() {
         </div>
         {/* products */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 sm:gap-1 md:grid-cols-3 lg:gap-4 p-5">
-          {saleProduct.map((product) => (
+          {saleProduct.map((product, i) => (
             <Link to={`/sale/${product.id}`}>
-              <img
-                className="h-100% w-100% rounded  sm:hover:scale-105 lg:hover:scale-110  ease-in duration-500"
-                src={product.img}
-                alt={product.title}
-              />
-              <div className="py-2">
-                <h2 className="text-lg font-opens  font-semibold">
-                  {product.title}
-                </h2>
-                <p className="font-opens  pt-2  text-sm">
-                  {product.description.slice(0, 32)}
-                </p>
-                <p className="font-semibold text-xl  font-opens pt-3">
-                  ${product.price}
-                </p>
+              <div key={product.id}>
+                <img
+                  className="h-100% w-100% rounded  sm:hover:scale-105 lg:hover:scale-110  ease-in duration-500"
+                  src={product.img}
+                  alt={product.title}
+                />
+                <div className="py-2">
+                  <h2 className="text-lg font-opens  font-semibold">
+                    {product.title}
+                  </h2>
+                  <p className="font-opens  pt-2  text-sm">
+                    {product.description.slice(0, 32)}
+                  </p>
+                  <p className="font-semibold text-xl  font-opens pt-3">
+                    ${product.price}
+                  </p>
+                </div>
               </div>
             </Link>
           ))}
