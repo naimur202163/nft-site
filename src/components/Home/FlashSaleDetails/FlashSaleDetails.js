@@ -1,9 +1,5 @@
-import React from 'react'
+import React from "react";
 
-export default function FlashSaleDetails(props) {
-  
-
-  return (
-    <div>FlashSaleDetails</div>
-  )
+export default function FlashSaleDetails() {
+  return <div>FlashSaleDetails</div>;
 }

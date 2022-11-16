@@ -16,7 +16,6 @@ const saleProduct = [
     title: "Wayfarer Sunglasses",
     description:
       "Our optical engineers developed these sunglasses for hiking. Ideal for occasional use in the mountains.",
-
     price: "30.00",
   },
   {
@@ -25,7 +24,6 @@ const saleProduct = [
     title: "Hermes Carlton London",
     description:
       "Off-White self-striped knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
-
     price: "15.00",
   },
   {
@@ -34,7 +32,6 @@ const saleProduct = [
     title: "Polarised Wayfarer ",
     description:
       "This item is only exchangeable for the same or a different size, if available, and cannot be returned",
-
     price: "20.00",
   },
   {
@@ -43,7 +40,6 @@ const saleProduct = [
     title: "Gucci Carlton UK",
     description:
       "Knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
-
     price: "14.99",
   },
   {
@@ -52,7 +48,6 @@ const saleProduct = [
     title: "NIKE Shoes",
     description:
       "NIKE 2020 Black White is a clean and monochromatic colourway of the label’s latest high-technology silhouette. The model first launched late last year and is currently Jordan Brand’s flagship performance pair.",
-
     price: "50.00",
   },
   {
@@ -61,7 +56,6 @@ const saleProduct = [
     title: "Wayfarer Sunglasses",
     description:
       "Our optical engineers developed these sunglasses for hiking. Ideal for occasional use in the mountains.",
-
     price: "20.00",
   },
 
@@ -71,7 +65,6 @@ const saleProduct = [
     title: "NIKE Shoes",
     description:
       "NIKE 2020 Black White is a clean and monochromatic colourway of the label’s latest high-technology silhouette. The model first launched late last year and is currently Jordan Brand’s flagship performance pair.",
-
     price: "50.00",
   },
 
@@ -81,7 +74,6 @@ const saleProduct = [
     title: "Wayfarer Sunglasses",
     description:
       "Our optical engineers developed these sunglasses for hiking. Ideal for occasional use in the mountains.",
-
     price: "30.00",
   },
   {
@@ -90,18 +82,16 @@ const saleProduct = [
     title: "NIKE Shoes",
     description:
       "NIKE 2020 Black White is a clean and monochromatic colourway of the label’s latest high-technology silhouette. The model first launched late last year and is currently Jordan Brand’s flagship performance pair.",
-
     price: "50.00",
   },
 ];
-
 export default function FlashSale() {
   return (
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl my-10">
       <div className="border-gray-200 rounded border-2 border-r-2">
-        <div className="flex justify-between">
-          <h2 className="text">Flash Sale</h2>
-          <h2>Hello </h2>
+        <div className="flex justify-between p-5  ">
+          <h2 className="text-2xl font-semibold font-opens">Flash Sale</h2>
+          <div></div>
         </div>
         {/* products */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 sm:gap-1 md:grid-cols-3 lg:gap-4 p-5">
