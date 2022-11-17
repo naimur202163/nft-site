@@ -46,6 +46,41 @@ const data = [
     img1: "https://i.ibb.co/v477yJs/hoppister-bg.webp",
     img2: "https://i.ibb.co/7pMb56k/hoppister.png",
   },
+  {
+    id: 10,
+    img1: "https://i.ibb.co/ckLSPM0/shovia-bg.webp",
+    img2: "https://i.ibb.co/PWDdq72/shovia.png",
+  },
+  {
+    id: 11,
+    img1: "https://i.ibb.co/ngCm60q/shoozly-bg.jpg",
+    img2: "https://i.ibb.co/N2WL4n0/shoozly.png",
+  },
+  {
+    id: 12,
+    img1: "https://i.ibb.co/HrGppWf/blaze-fashion-bg.webp",
+    img2: "https://i.ibb.co/0jCY9q8/blaze-fashion.png",
+  },
+  {
+    id: 13,
+    img1: "https://i.ibb.co/4YchCVB/elegance-bg.webp",
+    img2: "https://i.ibb.co/Wt8xLnY/elegance.png",
+  },
+  {
+    id: 14,
+    img1: "https://i.ibb.co/HYVqHbN/clothingtastic-bg.webp",
+    img2: "https://i.ibb.co/NVh4hz2/clothingtastic.png",
+  },
+  {
+    id: 15,
+    img1: "https://i.ibb.co/p0XpqmZ/fashnetic-bg.webp",
+    img2: "https://i.ibb.co/tMPDFFm/fashnetic.png",
+  },
+  {
+    id: 16,
+    img1: "https://i.ibb.co/KjGxBcR/hunter-shoes-bg.jpg",
+    img2: "https://i.ibb.co/ssJ6jtD/hunter-shoes.png",
+  },
 ];
 
 export default function TopBrands() {
