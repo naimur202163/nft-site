@@ -839,8 +839,8 @@ const data = [
     slug: "redq-steel-watch",
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-28-xs.png",
-      original: "/assets/images/products/p-28-m.png",
+      thumbnail: "https://i.ibb.co/vHQFBLs/p-28-xs.png",
+      original: "https://i.ibb.co/vHQFBLs/p-28-xs.png",
     },
     gallery: [
       {
@@ -940,14 +940,22 @@ export default function SellingProducts() {
   console.log(data);
   return (
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
-      <h2>h</h2>
-      <div className="grid grid-cols-4">
+      <div>
+        <h2 className="font-opens text-3xl font-bold my-10">
+          On Selling Products
+        </h2>
+      </div>
+      <div className="grid grid-cols-3">
         {data.map((items) => (
-          <div className="flex justify-between">
+          <div className="flex      rounded-lg">
             <div>
               <img src={items.image.thumbnail} alt={items.description} />
             </div>
-            <div></div>
+            <div>
+              <h2>{items.name}</h2>
+              <p>{items.description.slice(0, 33)}...</p>
+              <p>{items.price}</p>
+            </div>
           </div>
         ))}
       </div>

@@ -87,7 +87,7 @@ export default function TopBrands() {
   return (
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl my-14">
       <h2 className="font-opens text-3xl font-bold my-10">TopBrands</h2>
-
+      
       <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {data.map((items) => (
           <div className=" flex justify-center relative overflow-hidden rounded-md">
