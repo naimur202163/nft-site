@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import notfound from "../../images/404 (1).svg";
 
 export default function NotFound() {
+
+
+
+  
   return (
     <div className="">
       <div className="flex justify-center">

@@ -86,7 +86,36 @@ const data = [
 export default function TopBrands() {
   return (
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl my-14">
-      TopBrands
+      <h2 className="font-opens text-3xl font-bold my-10">TopBrands</h2>
+
+      <div className=" grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {data.map((items) => (
+          <div className=" flex justify-center relative overflow-hidden rounded-md">
+            <div
+              className="flex justify-center items-center bg-blend-darken bg-center duration-500 hover:scale-105 cursor-pointer "
+              style={{
+                width: 330,
+                height: 330,
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                backgroundImage: `url(${items.img1})`,
+              }}
+            >
+              <img className="" src={items.img2} />
+            </div>
+          </div>
+        ))}
+      </div>
+      {/* part-2 */}
+
+      <div className="my-20">
+        <img
+          className="h-auto w-full"
+          src="https://i.ibb.co/HKrNzYv/banner-4.jpg"
+          alt="hello"
+        />
+      </div>
     </div>
   );
 }
