@@ -54,12 +54,43 @@ export default function FeaturedProducts() {
   return (
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl my-14">
       <h2 className="font-opens font-bold text-3xl">Featured Products</h2>
-
       <div className="grid grid-cols-2 gap-4">
-        <div className="bg-light-gray ">ssss</div>
+        <div className="bg-light-gray ">
+          {data.slice(0, 1).map((items) => (
+            <div>
+              <img src={items.img} alt={items.title} />
+            </div>
+          ))}
+        </div>
         <div className="grid grid-cols-2 gap-4">
-          <div className=" bg-light-gray">1s</div>
-          <div className=" bg-light-gray">2s</div>
+          <div className=" bg-light-gray">
+            {data.slice(1, 2).map((items) => (
+              <div>
+                <img src={items.img} alt={items.title} />
+              </div>
+            ))}
+          </div>
+          <div className=" bg-light-gray">
+            {data.slice(2, 3).map((items) => (
+              <div>
+                <img src={items.img} alt={items.title} />
+              </div>
+            ))}
+          </div>
+          <div className=" bg-light-gray">
+            {data.slice(3, 4).map((items) => (
+              <div>
+                <img src={items.img} alt={items.title} />
+              </div>
+            ))}
+          </div>
+          <div className=" bg-light-gray">
+            {data.slice(4, 5).map((items) => (
+              <div>
+                <img src={items.img} alt={items.title} />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
