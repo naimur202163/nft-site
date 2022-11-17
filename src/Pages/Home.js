@@ -3,7 +3,9 @@ import Banner from "../components/Home/Banner/Banner";
 import CategorySlider from "../components/Home/CategorySlider/CategorySlider";
 import FeaturedProducts from "../components/Home/FeaturedProducts/FeaturedProducts";
 import FlashSale from "../components/Home/FlashSale/FlashSale";
+import ShopBanner from "../components/Home/ShopBanneer/ShopBanner";
 import Slider from "../components/Home/Slider/Slider";
+import TopBrands from "../components/Home/TopBrands/TopBrands";
 import Footer from "../Shared/Footer/Footer";
 import Navigation from "../Shared/Navigation/Navigation";
 
@@ -16,6 +18,8 @@ export default function Home() {
       <Slider />
       {/* <CategorySlider/> */}
       <FeaturedProducts />
+      <ShopBanner />
+      <TopBrands />
       <Footer />
     </div>
   );
