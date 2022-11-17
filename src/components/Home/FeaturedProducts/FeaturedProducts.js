@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const data = [
   {
@@ -57,37 +58,57 @@ export default function FeaturedProducts() {
       <div className="grid grid-cols-2 gap-4">
         <div className="bg-light-gray ">
           {data.slice(0, 1).map((items) => (
-            <div>
-              <img src={items.img} alt={items.title} />
-            </div>
+            <Link to={`/featured/${items.id}`}>
+              <img
+                className="scale-100 hover:scale-110 ease-in duration-500"
+                src={items.img}
+                alt={items.title}
+              />
+            </Link>
           ))}
         </div>
         <div className="grid grid-cols-2 gap-4">
           <div className=" bg-light-gray">
             {data.slice(1, 2).map((items) => (
               <div>
-                <img src={items.img} alt={items.title} />
+                <img
+                  className="scale-100 hover:scale-110 ease-in duration-500"
+                  src={items.img}
+                  alt={items.title}
+                />
               </div>
             ))}
           </div>
           <div className=" bg-light-gray">
             {data.slice(2, 3).map((items) => (
               <div>
-                <img src={items.img} alt={items.title} />
+                <img
+                  className="scale-100 hover:scale-110 ease-in duration-500"
+                  src={items.img}
+                  alt={items.title}
+                />
               </div>
             ))}
           </div>
           <div className=" bg-light-gray">
             {data.slice(3, 4).map((items) => (
               <div>
-                <img src={items.img} alt={items.title} />
+                <img
+                  className="scale-100 hover:scale-110 ease-in duration-500"
+                  src={items.img}
+                  alt={items.title}
+                />
               </div>
             ))}
           </div>
           <div className=" bg-light-gray">
-            {data.slice(4, 5).map((items) => (
+            {data.slice(5, 6).map((items) => (
               <div>
-                <img src={items.img} alt={items.title} />
+                <img
+                  className="scale-100 hover:scale-110 ease-in duration-500"
+                  src={items.img}
+                  alt={items.title}
+                />
               </div>
             ))}
           </div>
