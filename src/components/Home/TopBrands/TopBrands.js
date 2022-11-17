@@ -21,6 +21,31 @@ const data = [
     img1: "https://i.ibb.co/qYnSN7c/fashadil-bg.webp",
     img2: "https://i.ibb.co/dJbBFgD/sholy.png",
   },
+  {
+    id: 5,
+    img1: "https://i.ibb.co/MBX1LpB/clothingegy-bg.webp",
+    img2: "https://i.ibb.co/YLCn6kG/clothingegy.png",
+  },
+  {
+    id: 6,
+    img1: "https://i.ibb.co/vQ2mH3k/tyrant-bg.webp",
+    img2: "https://i.ibb.co/fpDwBKM/shosio.png",
+  },
+  {
+    id: 7,
+    img1: "https://i.ibb.co/vvSdyhf/club-shoes-bg.webp",
+    img2: "https://i.ibb.co/rmhTVTp/club-shoes.png",
+  },
+  {
+    id: 8,
+    img1: "https://i.ibb.co/vvSdyhf/club-shoes-bg.webp",
+    img2: "https://i.ibb.co/k2X7Bdm/pop-clothing.png",
+  },
+  {
+    id: 9,
+    img1: "https://i.ibb.co/v477yJs/hoppister-bg.webp",
+    img2: "https://i.ibb.co/7pMb56k/hoppister.png",
+  },
 ];
 
 export default function TopBrands() {
