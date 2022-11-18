@@ -10,8 +10,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/1.jpg",
-      original: "/assets/images/products/ancient/1.jpg",
+      thumbnail: "https://i.ibb.co/vQWrCjR/1.jpg",
+      original: "https://i.ibb.co/vQWrCjR/1.jpg",
     },
     gallery: [
       {
@@ -125,8 +125,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/2.jpg",
-      original: "/assets/images/products/ancient/2.jpg",
+      thumbnail: "https://i.ibb.co/vQWrCjR/1.jpg",
+      original: "https://i.ibb.co/vQWrCjR/1.jpg",
     },
     gallery: [
       {
@@ -240,8 +240,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/3.jpg",
-      original: "/assets/images/products/ancient/3.jpg",
+      thumbnail: "https://i.ibb.co/r44HsSB/3.jpg",
+      original: "https://i.ibb.co/r44HsSB/3.jpg",
     },
     gallery: [
       {
@@ -355,8 +355,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/4.jpg",
-      original: "/assets/images/products/ancient/4.jpg",
+      thumbnail: "https://i.ibb.co/RDGmdQV/4.jpg",
+      original: "https://i.ibb.co/RDGmdQV/4.jpg",
     },
     gallery: [
       {
@@ -470,8 +470,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/5.jpg",
-      original: "/assets/images/products/ancient/5.jpg",
+      thumbnail: "https://i.ibb.co/wRwTCW0/5.jpg",
+      original: "https://i.ibb.co/wRwTCW0/5.jpg",
     },
     gallery: [
       {
@@ -585,8 +585,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/6.jpg",
-      original: "/assets/images/products/ancient/6.jpg",
+      thumbnail: "https://i.ibb.co/fq12fhn/6.jpg",
+      original: "https://i.ibb.co/fq12fhn/6.jpg",
     },
     gallery: [
       {
@@ -700,8 +700,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/7.jpg",
-      original: "/assets/images/products/ancient/7.jpg",
+      thumbnail: "https://i.ibb.co/Jk11KfB/7.jpg",
+      original: "https://i.ibb.co/Jk11KfB/7.jpg",
     },
     gallery: [
       {
@@ -815,8 +815,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/8.jpg",
-      original: "/assets/images/products/ancient/8.jpg",
+      thumbnail: "https://i.ibb.co/zSSsLmM/8.jpg",
+      original: "https://i.ibb.co/zSSsLmM/8.jpg",
     },
     gallery: [
       {
@@ -930,8 +930,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/9.jpg",
-      original: "/assets/images/products/ancient/9.jpg",
+      thumbnail: "https://i.ibb.co/WK4xgG7/9.jpg",
+      original: "https://i.ibb.co/WK4xgG7/9.jpg",
     },
     gallery: [
       {
@@ -1154,5 +1154,9 @@ const data = [
 ];
 
 export default function NewArrivals() {
-  return <div>NewArrivals</div>;
+  return (
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
+      NewArrivals
+    </div>
+  );
 }

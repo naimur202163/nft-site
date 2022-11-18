@@ -3,6 +3,7 @@ import Banner from "../components/Home/Banner/Banner";
 import CategorySlider from "../components/Home/CategorySlider/CategorySlider";
 import FeaturedProducts from "../components/Home/FeaturedProducts/FeaturedProducts";
 import FlashSale from "../components/Home/FlashSale/FlashSale";
+import NewArrivals from "../components/Home/NewArrivals/NewArrivals";
 import SellingProducts from "../components/Home/SellingProducts/SellingProducts";
 import ShopBanner from "../components/Home/ShopBanneer/ShopBanner";
 import Slider from "../components/Home/Slider/Slider";
@@ -22,6 +23,7 @@ export default function Home() {
       <ShopBanner />
       <TopBrands />
       <SellingProducts />
+      <NewArrivals />
       <Footer />
     </div>
   );
