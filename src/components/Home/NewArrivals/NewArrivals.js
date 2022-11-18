@@ -125,8 +125,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/vQWrCjR/1.jpg",
-      original: "https://i.ibb.co/vQWrCjR/1.jpg",
+      thumbnail: "https://i.ibb.co/Gxb6RRT/2.jpg",
+      original: "https://i.ibb.co/Gxb6RRT/2.jpg",
     },
     gallery: [
       {
@@ -1045,8 +1045,8 @@ const data = [
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/ancient/10.jpg",
-      original: "/assets/images/products/ancient/10.jpg",
+      thumbnail: "https://i.ibb.co/YT2gbcL/10.jpg",
+      original: "https://i.ibb.co/YT2gbcL/10.jpg",
     },
     gallery: [
       {
@@ -1155,8 +1155,29 @@ const data = [
 
 export default function NewArrivals() {
   return (
-    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
-      NewArrivals
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl my-10 ">
+      <h2 className="font-opens text-3xl font-semibold my-10"> NewArrivals</h2>
+
+      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 rounded-md">
+        {data.map((items) => (
+          <div className="hover:shadow-xl rounded-md hover:transition delay-150 duration-300 ease-in-out  ">
+            <img
+              className="h-auto w-full rounded-md  hover:scale-105 delay-150 duration-200 ease-in-out"
+              src={items.image.original}
+              alt={items.name}
+            />
+            <div className="p-2">
+              <h2 className="font-bold font-opens text-lg">
+                {items.name.slice(0, 15)}
+              </h2>
+              <p className="font-opens text-gray-500 py-2">
+                {items.description.slice(0, 30)}..
+              </p>
+              <p className="font-bold font-opens text-xl">${items.price}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
