@@ -1,30 +1,42 @@
 import React from "react";
+
 const data = [
   {
     id: 1,
-    name: "Armani Veni Vidi Vici",
+    name: "Roadster Women Round Neck",
     description:
       "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
     slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/jHt5fDf/p-11-xs.png",
-      original: "https://i.ibb.co/jHt5fDf/p-11-xs.png",
+      thumbnail: "/assets/images/products/ancient/1.jpg",
+      original: "/assets/images/products/ancient/1.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/src/assets/images/products/p-11-1.png",
-        original: "/src/assets/images/products/p-11-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/src/assets/images/products/p-11-2.png",
-        original: "/src/assets/images/products/p-11-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: 20,
-    sale_price: 17.99,
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -106,28 +118,40 @@ const data = [
   },
   {
     id: 2,
-    name: "Adidas Shoes Black",
-    description: "Men Black top shoes gown",
-    slug: "adidas-shoes-black",
+    name: "Roadster Women Round Neck",
+    description:
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/g6ZtrFG/p-26-xs.png",
-      original: "https://i.ibb.co/g6ZtrFG/p-26-xs.png",
+      thumbnail: "/assets/images/products/ancient/2.jpg",
+      original: "/assets/images/products/ancient/2.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/src/assets/images/products/p-26-1.png",
-        original: "/src/assets/images/products/p-26-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/src/assets/images/products/p-26-2.png",
-        original: "/src/assets/images/products/p-26-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: 99.99,
-    sale_price: 45,
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -209,29 +233,40 @@ const data = [
   },
   {
     id: 3,
-    name: "Gucci Carlton UK",
+    name: "Roadster Women Round Neck",
     description:
-      "Knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
-    slug: "gucci-carlton-uk",
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/QbJmgMm/p-8-xs.png",
-      original: "https://i.ibb.co/QbJmgMm/p-8-xs.png",
+      thumbnail: "/assets/images/products/ancient/3.jpg",
+      original: "/assets/images/products/ancient/3.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/src/assets/images/products/p-26-1.png",
-        original: "/src/assets/images/products/p-26-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/src/assets/images/products/p-26-2.png",
-        original: "/src/assets/images/products/p-26-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: 19.99,
-    sale_price: 14.99,
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -313,29 +348,40 @@ const data = [
   },
   {
     id: 4,
-    name: "Scuba Stand Collar Topper Jacket",
+    name: "Roadster Women Round Neck",
     description:
-      "Zara provides only the highest-quality selection of dresses, womens suits, and suited separates.",
-    slug: "scuba-stand-collar-topper-jacket",
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/G7V9zRL/p-15-xs.png",
-      original: "https://i.ibb.co/G7V9zRL/p-15-xs.png",
+      thumbnail: "/assets/images/products/ancient/4.jpg",
+      original: "/assets/images/products/ancient/4.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/assets/images/products/p-15-1.png",
-        original: "/assets/images/products/p-15-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/assets/images/products/p-15-2.png",
-        original: "/assets/images/products/p-15-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: 16,
-    sale_price: 12,
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -417,29 +463,40 @@ const data = [
   },
   {
     id: 5,
-    name: "Regular Fit Crew-neck T-shirt",
+    name: "Roadster Women Round Neck",
     description:
-      "Self-striped knitted midi A-line dress, has a scoop neck, T-shirt, straight hem",
-    slug: "regular-fit-crew-neck-t-shirt",
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/sqh157C/p-7-xs.png",
-      original: "https://i.ibb.co/sqh157C/p-7-xs.png",
+      thumbnail: "/assets/images/products/ancient/5.jpg",
+      original: "/assets/images/products/ancient/5.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/assets/images/products/p-7-1.png",
-        original: "/assets/images/products/p-7-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/assets/images/products/p-7-2.png",
-        original: "/assets/images/products/p-7-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: 16.38,
-    sale_price: 12.3,
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -521,29 +578,40 @@ const data = [
   },
   {
     id: 6,
-    name: "Hermes  Carlton London",
+    name: "Roadster Women Round Neck",
     description:
-      "Off-White self-striped knitted midi A-line dress, has a scoop neck, sleeveless, straight hem",
-    slug: "hermes-carlton-london",
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/1G4mjsJ/p-27-xs.png",
-      original: "https://i.ibb.co/1G4mjsJ/p-27-xs.png",
+      thumbnail: "/assets/images/products/ancient/6.jpg",
+      original: "/assets/images/products/ancient/6.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/assets/images/products/p-14-1.png",
-        original: "/assets/images/products/p-14-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/assets/images/products/p-14-2.png",
-        original: "/assets/images/products/p-14-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: "",
-    sale_price: 15,
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -625,29 +693,40 @@ const data = [
   },
   {
     id: 7,
-    name: "Wayfarer Sunglasses",
+    name: "Roadster Women Round Neck",
     description:
-      "Our optical engineers developed these sunglasses for hiking. Ideal for occasional use in the mountains.",
-    slug: "wayfarer-sunglasses",
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/M16VCFN/p-16-xs.png",
-      original: "https://i.ibb.co/M16VCFN/p-16-xs.png",
+      thumbnail: "/assets/images/products/ancient/7.jpg",
+      original: "/assets/images/products/ancient/7.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/assets/images/products/p-27-1.png",
-        original: "/assets/images/products/p-27-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/assets/images/products/p-27-2.png",
-        original: "/assets/images/products/p-27-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: 25,
-    sale_price: 20,
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -729,29 +808,40 @@ const data = [
   },
   {
     id: 8,
-    name: "Armani Wide-Leg Trousers",
+    name: "Roadster Women Round Neck",
     description:
-      "Monochrome elegance. Made with a relaxed wide-leg, these trousers are made from a sustainable soft organic cotton with a mechanical stretch making the garment easily recycled.",
-    slug: "armani-wide-leg-trousers",
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/vHQFBLs/p-28-xs.png",
-      original: "https://i.ibb.co/vHQFBLs/p-28-xs.png",
+      thumbnail: "/assets/images/products/ancient/8.jpg",
+      original: "/assets/images/products/ancient/8.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/assets/images/products/p-16-1.png",
-        original: "/assets/images/products/p-16-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/assets/images/products/p-16-2.png",
-        original: "/assets/images/products/p-16-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: 80,
-    sale_price: 60,
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -833,29 +923,155 @@ const data = [
   },
   {
     id: 9,
-    name: "REDQ Steel Watch",
+    name: "Roadster Women Round Neck",
     description:
-      "The Black Bay celebrates 60 years of diving watches with extraordinary heritage. The iconic model inherits the general lines.",
-    slug: "redq-steel-watch",
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "https://i.ibb.co/vHQFBLs/p-28-xs.png",
-      original: "https://i.ibb.co/vHQFBLs/p-28-xs.png",
+      thumbnail: "/assets/images/products/ancient/9.jpg",
+      original: "/assets/images/products/ancient/9.jpg",
     },
     gallery: [
       {
         id: 1,
-        thumbnail: "/assets/images/products/p-26-1.png",
-        original: "/assets/images/products/p-26-1.png",
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
       },
       {
         id: 2,
-        thumbnail: "/assets/images/products/p-26-2.png",
-        original: "/assets/images/products/p-26-2.png",
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
       },
     ],
-    price: 120,
-    sale_price: 80,
+    price: 18.59,
+    sale_price: 18.59,
+    variations: [
+      {
+        id: 1,
+        value: "S",
+        attribute: {
+          id: 1,
+          name: "Size",
+          slug: "size",
+        },
+      },
+      {
+        id: 2,
+        value: "M",
+        attribute: {
+          id: 1,
+          name: "Size",
+          slug: "size",
+        },
+      },
+      {
+        id: 3,
+        value: "L",
+        attribute: {
+          id: 1,
+          name: "Size",
+          slug: "size",
+        },
+      },
+      {
+        id: 4,
+        value: "XL",
+        attribute: {
+          id: 1,
+          name: "Size",
+          slug: "size",
+        },
+      },
+      {
+        id: 5,
+        value: "Orange",
+        meta: "#e86c25",
+        attribute: {
+          id: 1,
+          name: "Color",
+          slug: "color",
+        },
+      },
+      {
+        id: 6,
+        value: "Pink",
+        meta: "#ffa5b4",
+        attribute: {
+          id: 1,
+          name: "Color",
+          slug: "color",
+        },
+      },
+      {
+        id: 7,
+        value: "Purple",
+        meta: "#8224e3",
+        attribute: {
+          id: 1,
+          name: "Color",
+          slug: "color",
+        },
+      },
+      {
+        id: 8,
+        value: "Red",
+        meta: "#dd3333",
+        attribute: {
+          id: 1,
+          name: "Color",
+          slug: "color",
+        },
+      },
+    ],
+  },
+  {
+    id: 10,
+    name: "Roadster Women Round Neck",
+    description:
+      "Fendi began life in 1925 as a fur and leather speciality store in Rome.",
+    slug: "armani-veni-vidi-vici",
+    isNewArrival: true,
+    image: {
+      id: 1,
+      thumbnail: "/assets/images/products/ancient/10.jpg",
+      original: "/assets/images/products/ancient/10.jpg",
+    },
+    gallery: [
+      {
+        id: 1,
+        thumbnail: "/assets/images/products/p-11-1.png",
+        original: "/assets/images/products/p-11-1.png",
+      },
+      {
+        id: 2,
+        thumbnail: "/assets/images/products/p-11-2.png",
+        original: "/assets/images/products/p-11-2.png",
+      },
+      {
+        id: 3,
+        thumbnail: "/assets/images/products/p-11-3.png",
+        original: "/assets/images/products/p-11-3.png",
+      },
+      {
+        id: 4,
+        thumbnail: "/assets/images/products/p-11-4.png",
+        original: "/assets/images/products/p-11-4.png",
+      },
+    ],
+    price: 18.59,
+    sale_price: 18.59,
     variations: [
       {
         id: 1,
@@ -936,37 +1152,7 @@ const data = [
     ],
   },
 ];
-export default function SellingProducts() {
-  console.log(data);
-  return (
-    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl ">
-      <div>
-        <h2 className="font-opens text-3xl font-bold my-10">
-          On Selling Products
-        </h2>
-      </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-        {data.map((items) => (
-          <div className="flex rounded-lg border border-gray-200 hover:-translate-y-1 duration-300">
-            <div>
-              <img
-                className="h-full w-full"
-                src={items.image.thumbnail}
-                alt={items.description}
-              />
-            </div>
-            <div className="p-2 py-10 ">
-              <h2 className="font-semibold font-opens text-lg">
-                {items.name.slice(0, 12)}
-              </h2>
-              <p className="font-opens text-gray-400 my-2">
-                {items.description.slice(0, 30)}...
-              </p>
-              <p className="font-semibold text-xl">${items.price}</p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
+
+export default function NewArrivals() {
+  return <div>NewArrivals</div>;
 }
