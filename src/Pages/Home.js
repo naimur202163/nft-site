@@ -1,4 +1,5 @@
 import React from "react";
+import AppBanner from "../components/Home/AppBanner/AppBanner";
 import Banner from "../components/Home/Banner/Banner";
 import CategorySlider from "../components/Home/CategorySlider/CategorySlider";
 import FeaturedProducts from "../components/Home/FeaturedProducts/FeaturedProducts";
@@ -24,6 +25,7 @@ export default function Home() {
       <TopBrands />
       <SellingProducts />
       <NewArrivals />
+      <AppBanner />
       <Footer />
     </div>
   );

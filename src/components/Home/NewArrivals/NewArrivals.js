@@ -1158,7 +1158,7 @@ export default function NewArrivals() {
     <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl my-10 ">
       <h2 className="font-opens text-3xl font-semibold my-10"> NewArrivals</h2>
 
-      <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 rounded-md">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 rounded-md">
         {data.map((items) => (
           <div className="hover:shadow-xl rounded-md hover:transition delay-150 duration-300 ease-in-out  ">
             <img
