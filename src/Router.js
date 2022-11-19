@@ -4,6 +4,7 @@ import FeaturedProductsDetails from "./components/Home/FeaturedProductsDetails/F
 import FlashSaleDetails from "./components/Home/FlashSaleDetails/FlashSaleDetails";
 import NotFound from "./components/NotFound/NotFound";
 import Home from "./Pages/Home";
+import ContactUs from "./Shared/ContactUs/ContactUs";
 
 export default function Router() {
   return (
@@ -12,6 +13,7 @@ export default function Router() {
         <Route path="/" element={<Home />} />
         <Route path="/sale/:id" element={<FlashSaleDetails />} />
         <Route path="/featured/:id" element={<FeaturedProductsDetails />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
