@@ -16,22 +16,10 @@ export default function ContactUs() {
       </div>
       {/* get in touch  */}
       <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-        <div class="grid grid-rows-3 grid-flow-col gap-4">
-          <div class="row-span-3">
-            <div className="border border-r-2 border-gray-400">
-                <h2 className="font-bold font-opens">Find us here</h2>
-                <div>
-                  <div>
-                    <MdOutlineLocationOn/>
-                  </div>
-                  <div>
-                    <h2>Address</h2>
-                    <p>PO Box 14122 Collins Street West.Victoria</p>
-                  </div>
-                </div>
-            </div>
-          </div>
-          <div class="row-span-2 col-span-2">lore</div>
+        <div className="gird grid-cols-4  ">
+          <div className="">e</div>
+          <div className="">e</div>
+          <div className="">e</div>
         </div>
       </div>
     </div>
