@@ -1,4 +1,12 @@
 import React from "react";
+import "swiper/css";
+import "swiper/css/bundle";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css/pagination";
+import { Pagination } from "swiper";
+
 const data = [
   {
     id: 1,
@@ -42,5 +50,37 @@ const data = [
   },
 ];
 export default function CategorySlider() {
-  return <div>CategorySlider</div>;
+  return (
+    <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
+      <div>
+        <h2 className="font-bold  text-3xl my-5 ">Shop By Category</h2>
+      </div>
+      <div>
+        <Swiper
+          slidesPerView={6}
+          spaceBetween={20}
+          pagination={{
+            clickable: true,
+          }}
+          loop="true"
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          {data.map((item) => (
+            <div>
+              <SwiperSlide>
+                <img
+                  className="h-full w-full rounded-md hover:bg-black hover:opacity-70"
+                  src={item.img}
+                />
+                <h2 className="text-center font-bold  font-opens text-xl my-2">
+                  {item.title}
+                </h2>
+              </SwiperSlide>
+            </div>
+          ))}
+        </Swiper>
+      </div>
+    </div>
+  );
 }
