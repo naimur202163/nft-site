@@ -68,12 +68,45 @@ export default function ContactUs() {
             </div>
             <div className=" lg:col-span-2">
               <h2 className="text-3xl font-bold font-opens">Get in touch</h2>
-              <form className="w-full max-w-lg"></form>
+              <form className="w-full">
+                <div className="grid grid-cols-2 gap-4 my-5">
+                  <input
+                    type="text"
+                    className="border rounded-sm border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
+                    placeholder="First Name"
+                  />
+                  <input
+                    type="text"
+                    className="border  rounded-sm border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500"
+                    placeholder="Last Name"
+                  />
+                  <input
+                    type="email"
+                    class="border  rounded-sm border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
+                    placeholder="Email"
+                  />
+
+                  <textarea
+                    cols="10"
+                    rows="5"
+                    className="border  rounded-sm border-gray-500 px-4 py-2 focus:outline-none focus:border-purple-500 col-span-2"
+                    placeholder="Write your message..."
+                  ></textarea>
+                  <div className="flex justify-center itme">
+                    
+                  </div>
+                </div>
+                <input
+                      type="submit"
+                      value="Send Message"
+                      className="focus:outline-none mt-5 bg-purple-500 px-4 py-2 text-white font-bold w-full"
+                    />
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </div>  
   );
 }
 // 01713598285
