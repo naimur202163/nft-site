@@ -5,6 +5,7 @@ import CategorySlider from "../components/Home/CategorySlider/CategorySlider";
 import FeaturedProducts from "../components/Home/FeaturedProducts/FeaturedProducts";
 import FlashSale from "../components/Home/FlashSale/FlashSale";
 import NewArrivals from "../components/Home/NewArrivals/NewArrivals";
+import RealPerson from "../components/Home/RealPerson/RealPerson";
 import SellingProducts from "../components/Home/SellingProducts/SellingProducts";
 import ShopBanner from "../components/Home/ShopBanneer/ShopBanner";
 import Slider from "../components/Home/Slider/Slider";
@@ -19,13 +20,14 @@ export default function Home() {
       <Banner />
       <FlashSale />
       <Slider />
-      <CategorySlider/>
+      <CategorySlider />
       <FeaturedProducts />
       <ShopBanner />
       <TopBrands />
       <SellingProducts />
       <NewArrivals />
       <AppBanner />
+      <RealPerson />
       <Footer />
     </div>
   );

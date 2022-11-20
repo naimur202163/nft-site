@@ -68,7 +68,7 @@ export default function CategorySlider() {
         >
           {data.map((item) => (
             <div>
-              <SwiperSlide>
+              <SwiperSlide className="my-4">
                 <img
                   className="h-full w-full rounded-md hover:bg-black hover:opacity-70"
                   src={item.img}
