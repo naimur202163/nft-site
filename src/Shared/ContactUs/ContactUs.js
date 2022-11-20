@@ -1,5 +1,6 @@
 import React from "react";
-import { MdOutlineLocationOn } from "react-icons/md";
+import { CiLocationOn } from "react-icons/ci";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 export default function ContactUs() {
   return (
@@ -15,11 +16,61 @@ export default function ContactUs() {
         </div>
       </div>
       {/* get in touch  */}
-      <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-        <div className="gird grid-cols-4  ">
-          <div className="">e</div>
-          <div className="">e</div>
-          <div className="">e</div>
+      <div className="bg-white">
+        <div className="mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl py-10">
+          <div className="grid  lg:grid-cols-3 gap-4">
+            <div className="border border-gray-300 rounded-md p-2">
+              <h2 className="font-opens font-bold text-xl my-5">
+                Find us here
+              </h2>
+              <div className="flex justify-around items-center">
+                <div className="flex justify-center ">
+                  <CiLocationOn className="text-3xl cursor-pointer" />
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold font-opens">Address</h2>
+                  <p className="text-gray-400">
+                    PO Box 14122 Collins Street West.Victoria
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-around items-center my-5">
+                <div className="flex justify-center ">
+                  <AiOutlineMail className="text-3xl cursor-pointer" />
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold font-opens ">Address</h2>
+                  <p className="text-gray-400">
+                    PO Box 14122 Collins Street West.Victoria
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-around items-center my-5">
+                <div className="flex justify-center ">
+                  <AiOutlinePhone className="text-3xl cursor-pointer" />
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold font-opens">Address</h2>
+                  <p className="text-gray-400">
+                    PO Box 14122 Collins Street West.Victoria
+                  </p>
+                </div>
+              </div>
+              <div className=" my-5">
+                <div className="flex justify-center ">
+                  <img
+                    className="rounded-md"
+                    src="https://i.ibb.co/rbBTRwJ/map-image.jpg"
+                    alt="image"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className=" lg:col-span-2">
+              <h2 className="text-3xl font-bold font-opens">Get in touch</h2>
+              <form className="w-full max-w-lg"></form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
