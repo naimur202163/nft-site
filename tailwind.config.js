@@ -10,7 +10,8 @@ module.exports = {
         opens: '"Open Sans"',
       },
       colors:{
-        "light-gray":'#F9F9F9'
+        "light-gray":'#F9F9F9',
+        "red-gray":"#ECE7E3"
       }
     },
   },
