@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import logo from "../../images/logo.svg";
+import logo from "../../assets/images/logo.svg";
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
@@ -14,9 +14,9 @@ export default function Navigation() {
                 title="Company"
                 className="inline-flex items-center mr-8"
               >
-                {/* <img src={logo} alt="" /> */}
+                <img src={logo} alt="" />
               </a>
-              <ul className="flex items-center hidden space-x-8 lg:flex">
+              <ul className="flex items-center  space-x-8 lg:flex">
                 <li>
                   <a
                     href="/"
@@ -24,7 +24,7 @@ export default function Navigation() {
                     title="Our product"
                     className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
                   >
-                    Product
+                    Men wear
                   </a>
                 </li>
                 <li>
@@ -34,7 +34,7 @@ export default function Navigation() {
                     title="Our product"
                     className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
                   >
-                    Features
+                    Women Wear
                   </a>
                 </li>
                 <li>
@@ -44,7 +44,7 @@ export default function Navigation() {
                     title="Product pricing"
                     className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
                   >
-                    Pricing
+                   Search
                   </a>
                 </li>
                 <li>
@@ -54,7 +54,17 @@ export default function Navigation() {
                     title="About us"
                     className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
                   >
-                    About us
+                   Shops
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/"
+                    aria-label="About us"
+                    title="About us"
+                    className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
+                  >
+                    Pages
                   </a>
                 </li>
               </ul>
