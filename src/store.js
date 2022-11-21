@@ -1274,8 +1274,8 @@
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-2.png",
-      original: "/assets/images/products/p-2-m.png",
+      thumbnail: "https://i.ibb.co/ssFzyLP/p-2.png",
+      original: "https://i.ibb.co/Kqd35Tc/p-2-m.png",
     },
     gallery: [
       {
@@ -1388,8 +1388,8 @@
     slug: "gucci-carlton-uk",
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-8.png",
-      original: "/assets/images/products/p-8-m.png",
+      thumbnail: "https://i.ibb.co/wh45TBj/p-8.png",
+      original: "https://i.ibb.co/BgdNzPb/p-8-m.png",
     },
     gallery: [
       {
@@ -1503,8 +1503,8 @@
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-4.png",
-      original: "/assets/images/products/p-4-m.png",
+      thumbnail: "https://i.ibb.co/RByZgt0/p-4.png",
+      original: "https://i.ibb.co/BtSBfSj/p-4-m.png",
     },
     gallery: [
       {
@@ -1733,8 +1733,8 @@
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-6.png",
-      original: "/assets/images/products/p-6-m.png",
+      thumbnail: "https://i.ibb.co/4MYsRqz/p-5.png",
+      original: "https://i.ibb.co/BC6jWQh/p-5-m.png"
     },
     gallery: [
       {
@@ -1847,8 +1847,8 @@
     slug: "regular-fit-crew-neck-t-shirt",
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-7.png",
-      original: "/assets/images/products/p-7-m.png",
+      thumbnail: "https://i.ibb.co/2SZcJLM/p-7.png",
+      original: "https://i.ibb.co/0Zvp5bH/p-7-m.png",
     },
     gallery: [
       {
@@ -1962,8 +1962,8 @@
     slug: "zara-shoes-green",
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-3.png",
-      original: "/assets/images/products/p-3-m.png",
+      thumbnail: "https://i.ibb.co/LQdf9bL/p-3.png",
+      original: "https://i.ibb.co/rxzB9bM/p-19-m.png",
     },
     gallery: [
       {
@@ -2067,8 +2067,8 @@
     isNewArrival: true,
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-9.png",
-      original: "/assets/images/products/p-9-m.png",
+      thumbnail: "https://i.ibb.co/Rbn8d0B/p-9.png",
+      original: "https://i.ibb.co/vsyxMNd/p-9-m.png",
     },
     gallery: [
       {
@@ -2181,8 +2181,8 @@
     slug: "nike-shoes",
     image: {
       id: 1,
-      thumbnail: "/assets/images/products/p-10.png",
-      original: "/assets/images/products/p-10-m.png",
+      thumbnail: "https://i.ibb.co/GJT65mz/p-10.png",
+      original: "https://i.ibb.co/QNgqvMQ/p-10-m.png",
     },
     gallery: [
       {
