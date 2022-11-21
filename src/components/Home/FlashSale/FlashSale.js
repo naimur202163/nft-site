@@ -99,7 +99,7 @@ export default function FlashSale() {
             <Link to={`/sale/${product.id}`}>
               <div key={product.id}>
                 <img
-                  className="h-100% w-100% rounded  sm:hover:scale-105 lg:hover:scale-110  ease-in duration-500"
+                  className="h-full w-full rounded  sm:hover:scale-105 lg:hover:scale-110  ease-in duration-500"
                   src={product.img}
                   alt={product.title}
                 />

@@ -12,26 +12,26 @@ export default function Banner() {
       <div class="grid grid-cols-4 lg:gap-4">
         <div className="col-span-2">
           {" "}
-          <img className="max-w-full h-auto lg:h-[370px]" src={img1} alt="" />
+          <img className="max-w-full h-full lg:h-[370px]" src={img1} alt="" />
         </div>
         <div>
           {" "}
-          <img className="max-w-full h-auto lg:h-[370px]" src={img2} alt="" />
+          <img className="max-w-full h-full lg:h-[370px]" src={img2} alt="" />
         </div>
         <div>
           {" "}
-          <img className="max-w-full h-auto lg:h-[370px]" src={img3} alt="" />
+          <img className="max-w-full h-full   lg:h-[370px]" src={img3} alt="" />
         </div>
         <div>
           {" "}
-          <img className="max-w-full h-auto lg:h-[370px]" src={img4} alt="" />
+          <img className="max-w-full h-full lg:h-[370px]" src={img4} alt="" />
         </div>
         <div>
           {" "}
-          <img className="max-w-full h-auto lg:h-[370px]" src={img5} alt="" />
+          <img className="max-w-full h-full lg:h-[370px]" src={img5} alt="" />
         </div>
         <div className="col-span-2">
-          <img className="max-w-full h-auto lg:h-[370px]" src={img6} alt="" />
+          <img className="max-w-full h-full lg:h-[370px]" src={img6} alt="" />
         </div>
       </div>
     </div>
