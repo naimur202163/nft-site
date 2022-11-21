@@ -3,7 +3,9 @@ import AppBanner from "../components/Home/AppBanner/AppBanner";
 import Banner from "../components/Home/Banner/Banner";
 import CategorySlider from "../components/Home/CategorySlider/CategorySlider";
 import FeaturedProducts from "../components/Home/FeaturedProducts/FeaturedProducts";
+import Feshion from "../components/Home/Feshion/Feshion";
 import FlashSale from "../components/Home/FlashSale/FlashSale";
+import Instagram from "../components/Home/Instagram/Instagram";
 import NewArrivals from "../components/Home/NewArrivals/NewArrivals";
 import RealPerson from "../components/Home/RealPerson/RealPerson";
 import SellingProducts from "../components/Home/SellingProducts/SellingProducts";
@@ -26,9 +28,11 @@ export default function Home() {
       <ShopBanner />
       <TopBrands />
       <SellingProducts />
+      <Feshion/>
       <NewArrivals />
       <AppBanner />
       <RealPerson />
+      <Instagram />
       <YourInbox />
       <Footer />
     </div>

@@ -13,12 +13,12 @@ export default function YourInbox() {
               Subscribe to our newsletter and stay updated.
             </p>
           </div>
-          <div className="">
+          <div className="my-5">
             <div className="flex gap-1 lg:items-center justify-center">
               <input
                 type="text"
                 className="
-                px-10 py-5
+                px-14 py-3
         text-gray-700
         bg-white bg-clip-padding
         border border-solid border-gray-300
@@ -30,7 +30,7 @@ export default function YourInbox() {
                 id="exampleFormControlInput1"
                 placeholder="Write Your Email here"
               />
-              <button className="bg-black text-white px-8 py-5 rounded-md">
+              <button className="bg-black text-white px-8 py-3 rounded-md">
                 Subscribe
               </button>
             </div>
