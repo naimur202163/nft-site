@@ -12,6 +12,7 @@ import Slider from "../components/Home/Slider/Slider";
 import TopBrands from "../components/Home/TopBrands/TopBrands";
 import Footer from "../Shared/Footer/Footer";
 import Navigation from "../Shared/Navigation/Navigation";
+import YourInbox from "../Shared/YourInbox/YourInbox";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <NewArrivals />
       <AppBanner />
       <RealPerson />
+      <YourInbox />
       <Footer />
     </div>
   );
