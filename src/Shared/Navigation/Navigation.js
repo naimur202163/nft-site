@@ -16,7 +16,7 @@ export default function Navigation() {
               >
                 <img src={logo} alt="" />
               </a>
-              <ul className="flex items-center  space-x-8 lg:flex">
+              <ul className="flex items-center hidden  space-x-8 lg:flex">
                 <li>
                   <a
                     href="/"
@@ -44,7 +44,7 @@ export default function Navigation() {
                     title="Product pricing"
                     className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
                   >
-                   Search
+                    Search
                   </a>
                 </li>
                 <li>
@@ -54,7 +54,7 @@ export default function Navigation() {
                     title="About us"
                     className="font-medium tracking-wide  transition-colors duration-200 hover:text-teal-accent-400"
                   >
-                   Shops
+                    Shops
                   </a>
                 </li>
                 <li>
