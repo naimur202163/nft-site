@@ -9,7 +9,9 @@ export default function Faq() {
           <HeaderFeature tab="explore  " />
         </div>
       </div>
-      <div></div>
+        <div>
+          
+        </div>
     </div>
   );
 }
