@@ -96,7 +96,7 @@ export default function FlashSale() {
         {/* products */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-5 sm:gap-1 md:grid-cols-3 lg:gap-4 p-5">
           {saleProduct.map((product, i) => (
-            <Link to={`/sale/${product.id}`}>
+            <Link to={`/products/${product.id}`}>
               <div key={product.id}>
                 <img
                   className="h-full w-full rounded  sm:hover:scale-105 lg:hover:scale-110  ease-in duration-500"

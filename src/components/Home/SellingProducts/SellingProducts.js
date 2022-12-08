@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const data = [
   {
     id: 1,
@@ -948,13 +949,13 @@ export default function SellingProducts() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {data.map((items) => (
           <div className="flex rounded-lg border border-gray-200 hover:-translate-y-1 duration-300">
-            <div>
+            <Link to={`/products/${items.id}`}>
               <img
                 className="h-full w-full"
                 src={items.image.thumbnail}
                 alt={items.description}
               />
-            </div>
+            </Link>
             <div className="p-2 py-10 ">
               <h2 className="font-semibold font-opens text-lg">
                 {items.name.slice(0, 12)}

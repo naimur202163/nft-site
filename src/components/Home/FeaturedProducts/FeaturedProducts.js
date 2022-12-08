@@ -165,7 +165,7 @@ export default function FeaturedProducts() {
           </div>
           <div className=" bg-light-gray p-2">
             {data.slice(5, 6).map((items) => (
-              <Link to={`/featured/${items.id}`}>
+              <Link to={`/products/${items.id}`}>
                 <img
                   className="scale-100 hover:scale-110 ease-in duration-500"
                   src={items.img}
